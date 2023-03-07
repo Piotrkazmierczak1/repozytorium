@@ -1,0 +1,54 @@
+*{
+    font-family: Helvetica;
+}
+
+#baner, #stopka{
+    background-color: RGB(70,130,180);
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+
+#glowny{
+    background-color: RGB(176,196,222);
+    padding:50px;
+    text-align: center;
+    
+    
+}
+
+#lewy{
+    background-color: RGB(70,130,180);
+    color: white;
+    height: 300px;
+    width: 80%;
+    float: left;
+}
+
+#prawy{
+    background-color: RGB(70,130,180);
+    color: white;
+    height: 300px;
+    width: 20%;
+    float: right;
+}
+
+#glowny img{
+    padding: 3px;
+    border: 1px blue dashed;
+    border-radius: 10px;
+
+}
+
+#lewy img{
+    height: 40%;
+
+}
+
+#stopka{
+    clear: both;
+}
+
+#lewy img:hover{
+    border: 1px white solid;
+}
